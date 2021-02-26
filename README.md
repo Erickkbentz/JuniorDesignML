@@ -1,2 +1,4 @@
 # JuniorDesign
-READ ME
+
+Team Members:
+Tyler Jedziniak
