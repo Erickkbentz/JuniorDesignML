@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f37d3961-c7a3-42f0-b3c7-4a4a078400fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VisTest/src/Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisTest/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/operations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/operations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/operations/build/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/operations/build/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/resolution/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/resolution/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/resolution/legacy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/resolution/legacy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/resolution/resolvelib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/resolution/resolvelib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_internal/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/chardet/metadata/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/chardet/metadata/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/compat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/resolvelib/compat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/urllib3/contrib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/setuptools/_vendor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/venv/lib/python3.8/site-packages/setuptools/_vendor/__init__.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="8fc25149-b4d0-479b-b32c-778bf4c0dba4" />
+  <component name="ProjectId" id="1qo7eX36Nov3C0OuRefjqJ22yS6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VisTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VisTest/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VisTest/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JuniorDesign" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test1/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f37d3961-c7a3-42f0-b3c7-4a4a078400fe" name="Default Changelist" comment="" />
+      <created>1617734186794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617734186794</updated>
+      <workItem from="1617734189302" duration="5932000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="95" key="#Plugins" timestamp="1618332444041">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="95" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1618332444041" />
+    <state x="208" y="28" key="#Project_Structure" timestamp="1618345803484">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="28" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1618345803484" />
+    <state x="451" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618346527319">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1618346527319" />
+    <state x="308" y="108" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1618332616979">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="108" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1440.900@0.0.1440.900" timestamp="1618332616979" />
+    <state x="508" y="208" key="FileChooserDialogImpl" timestamp="1618332612325">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="208" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1618332612325" />
+    <state width="1398" height="382" key="GridCell.Tab.0.bottom" timestamp="1618347366072">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="382" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618347366072" />
+    <state width="1398" height="382" key="GridCell.Tab.0.center" timestamp="1618347366070">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="382" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618347366070" />
+    <state width="1398" height="382" key="GridCell.Tab.0.left" timestamp="1618347366069">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="382" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618347366069" />
+    <state width="1398" height="382" key="GridCell.Tab.0.right" timestamp="1618347366071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="382" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618347366071" />
+    <state x="208" y="28" key="SettingsEditor" timestamp="1618345791401">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="28" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1618345791401" />
+    <state x="126" y="69" key="new project wizard" timestamp="1618345735908">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="126" y="69" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1618345735908" />
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1618332351240">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1618332351240" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JuniorDesign$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1618347274737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisTest/src" />
+    <SUITE FILE_PATH="coverage/JuniorDesign$main.coverage" NAME="main Coverage Results" MODIFIED="1618346031478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1/src" />
+  </component>
+</project>
