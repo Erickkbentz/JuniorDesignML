@@ -4,11 +4,8 @@ import pandas as pd
 import csv
 import CSVAnalyzer
 from datetime import datetime
-from praw.models import MoreComments
-from numpy import genfromtxt
 
-SUBMISSIONCOLUMNS = 11
-COMMENTCOLLUMNS = 8
+
 ##Submission Statics
 SUBMISSION_CSV = "submissions.csv"
 SUB_TITLE = "Title"
@@ -35,7 +32,8 @@ COMMENTS_PARENTID = "Parent Id"
 COMMENTS_SCORE = "Score"
 
 Subreddit = "python"
-
+SUBMISSIONCOLUMNS = 11
+COMMENTCOLLUMNS = 8
 def getSubmissionMetaData(posts, submissionIndex, submission):
 	posts[submissionIndex, 0] = submission.title
 	posts[submissionIndex, 1] = submission.author
@@ -65,28 +63,6 @@ def getCommentMetaData(comments, commentIndex, comment):
 
 
 def scrapeToCsv(pullSize):
-	##PostData
-	# author
-	# comments:forrest
-	# creationTime
-	# fromModerator
-	# isEdited
-	# Id
-	# locked
-	# name
-	# numcomments
-	# score
-	# title
-	# upvoteratio
-
-	##CommentData
-	# author
-	# body
-	# creationTime
-	# isauthor
-	# id
-	# parentid
-	# score
 	reddit = praw.Reddit(client_id='3MtQ8leeP8FYgNP0Vp6LJw',
 						 client_secret='gZudwyXvNcPua09iVG8q42Xgmsgvqg',
 						 username='PrawTutorialGT',
@@ -95,44 +71,28 @@ def scrapeToCsv(pullSize):
 
 	subreddit = reddit.subreddit(Subreddit)
 	hotPython = subreddit.hot(limit=pullSize)
-		#U100 for 200 unichars for whole title
+		#U200 for 200 unichars for whole title
 	posts = np.empty((pullSize, SUBMISSIONCOLUMNS), dtype=np.dtype('U200'))
-	#allCommentsList = list()
 	submissionIndex = 0
 	isFirst = True
-	deleted = 0
 	for submission in hotPython:
-		#print("Submission% " + str(submissionIndex/pullSize))
 		submission.comments.replace_more(limit=None)
-
 		posts = getSubmissionMetaData(posts, submissionIndex, submission)
-
-		#print(posts.transpose(pullSize, 11).reshape(3, -1))
 		comment_queue = submission.comments[:]
 		numComments = submission.num_comments
 		comments = np.empty((numComments, COMMENTCOLLUMNS), dtype=np.dtype('U200'))
 		commentIndex = 0
-		#commentsArray = np.empty((submission.num_comments, 8), dtype=np.dtype('U200'))
 		while comment_queue:
-			#print("Comment % " + str(commentIndex/submission.num_comments))
 			comment = comment_queue.pop(0)
-			# if comment.author == None:
-			# 	deleted +=1
-			# 	continue
 			comments = getCommentMetaData(comments, commentIndex, comment)
 			commentIndex+=1
 			comment_queue.extend(comment.replies)
-
-		#allCommentsList.append(comments)
 		if not isFirst:
 			allCommentsArray = np.concatenate((allCommentsArray, comments), axis=0)
 		else:
 			allCommentsArray = comments
 			isFirst = False
 		submissionIndex+=1
-
-	#allComments = np.asarray(allCommentsList)
-	#print(allCommentsArray)
 
 	pd.DataFrame(posts).to_csv(SUBMISSION_CSV, index = False)
 	updateSubmissionCSV(SUBMISSION_CSV)
