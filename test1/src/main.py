@@ -1,16 +1,13 @@
-import matplotlib.pyplot as plt
-import matplotlib
-import numpy as np
 import datetime
-import sys
-import pylab
 import re
+
+import matplotlib
+import matplotlib.pyplot
+import matplotlib.pyplot as plt
+import numpy as np
+
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-import matplotlib.pyplot
-from mpl_toolkits.mplot3d import Axes3D
 matplotlib.axes.Axes.pie
 matplotlib.pyplot.pie
 

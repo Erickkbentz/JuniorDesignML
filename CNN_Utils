@@ -1,0 +1,15 @@
+import re
+
+def removePunctuation(text):
+	temp = ''
+	temp = re.sub('[' +string.punctuation+']', '', text)
+	return temp
+
+def cleanPunct(df):
+	df['Clean_Text'] = data['Text'].apply(lambda x: remove_punctuation(x))
+
+def buildVocab(df):
+
+
+
+#This file will be to vectorize aspects of sentinces for classification

@@ -1,10 +1,11 @@
-import praw
-import numpy as np
-import pandas as pd
 import csv
-import CSVAnalyzer
 from datetime import datetime
 
+import numpy as np
+import pandas as pd
+import praw
+
+import CSVAnalyzer
 
 ##Submission Statics
 SUBMISSION_CSV = "submissions.csv"
@@ -183,8 +184,8 @@ def main():
 
 	comDF = readCsv(COMMENTS_CSV)
 
-	woof.plot(comDF, "Created", "Score")
-
+	#woof.plot(comDF, "Created", "Score")
+	woof.getParseTree(comDF["Body"][0])
 	# negs = comDF.loc[comDF["Score"] < 0]
 	# authNum = comDF["Author"].value_counts()
 	# # print(negs)
