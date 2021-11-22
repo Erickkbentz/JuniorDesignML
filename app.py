@@ -3,7 +3,14 @@ import time
 import os
 from flask import Flask
 from flask import request
-
+import pandas as pd
+import pickle
+import csv
+from pdfScanner import *
+#import praw script file
+#import filtering file
+#import pdf scraper
+#import text to df
 
 analyze_job_fields = ['userId', 'jobName', 'inputType', 'url', 'fileLocation']
 
@@ -14,8 +21,43 @@ def analyze_job():
     print("Testing: ML hit")
     reqData = request.json
     print('Request: ' + str(reqData))
+    
+    
+    #Detecting inputType, decided the data formatting route to take
+    inputType = str(reqData['userId'])
+    inputFileLocation = ''
+    data = pd.DataFrame()
+    if (inputType == "url"):
+        #send to praw script, where it will determine if the url is for a post or an entire sub,
+        #building a dataframe accordingly
+    else:
+        inputFileLocation = str(reqData['fileLocation'])
+        if (inputFileLocation[-3:] == 'pdf'):
+            #Input is a pdf, call pdf scraper
+            data = pdfScanner.main(inputFilelocation)
+        elif (inputFileLocation[-3:] == 'csv'):
+            #Input is a csv, format here
+        elif (inputFileLocation[-3:] == 'txt'):
+            #Input is a txt, call txt to df
+        else:
+            #Input file is invalid
+            return "ERROR: Input file is of invalid type!", 500
+    
+    #Get the formatted data generated from above, run it through persuasionDetection model
+    
+    
+    
+    
+    
+    
+    
     outputFileLocation = ''
 
+    
+    
+    
+    
+    
     # add logic to change status if ML stuff fails or is run successfully, for now set to COMPLETED by defualt
     status = 'COMPLETED'
  
