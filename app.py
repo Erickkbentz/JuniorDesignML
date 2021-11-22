@@ -11,6 +11,7 @@ app = Flask(__name__)
 
 @app.route('/analyze_job', methods=['POST'])
 def analyze_job():
+    print("Testing: ML hit")
     reqData = request.json
     print('Request: ' + str(reqData))
     outputFileLocation = ''
