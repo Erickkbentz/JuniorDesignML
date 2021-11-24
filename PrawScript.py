@@ -25,16 +25,16 @@ SUB_UPVOTE_RATIO = "Upvote Ratio"
 COMMENTS_CSV = "comments.csv"
 COMMENTS_AUTHOR = "Author"
 COMMENTS_BODY = "body"
-COMMENTS_CREATED = "Created"
+COMMENTS_CREATED = "timestamp"
 COMMENTS_ID = "Id"
-COMMENTS_ISSUBMITTER = "IsSubmitter"
+#COMMENTS_ISSUBMITTER = "IsSubmitter"
 COMMENTS_LINKID = "Link Id"
 COMMENTS_PARENTID = "Parent Id"
-COMMENTS_SCORE = "Score"
+COMMENTS_SCORE = "num_upvotes"
 
 Subreddit = "python"
 SUBMISSIONCOLUMNS = 11
-COMMENTCOLLUMNS = 8
+COMMENTCOLLUMNS = 7
 def getSubmissionMetaData(posts, submissionIndex, submission):
 	posts[submissionIndex, 0] = submission.title
 	posts[submissionIndex, 1] = submission.author
