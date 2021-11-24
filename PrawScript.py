@@ -55,10 +55,10 @@ def getCommentMetaData(comments, commentIndex, comment):
 	comments[commentIndex, 1] = comment.body
 	comments[commentIndex, 2] = comment.created_utc
 	comments[commentIndex, 3] = comment.id
-	comments[commentIndex, 4] = comment.is_submitter
-	comments[commentIndex, 5] = comment.link_id
-	comments[commentIndex, 6] = comment.parent_id
-	comments[commentIndex, 7] = comment.score
+	#comments[commentIndex, 4] = comment.is_submitter
+	comments[commentIndex, 4] = comment.link_id
+	comments[commentIndex, 5] = comment.parent_id
+	comments[commentIndex, 6] = comment.score
 	return comments
 
 
@@ -167,7 +167,7 @@ def updateSubmissionCSV(file):
 def updateComments(dF):
 	#deleted = 0
 	#dF = pd.read_csv(file, sep=",")
-	dF.columns = [COMMENTS_AUTHOR, COMMENTS_BODY, COMMENTS_CREATED, COMMENTS_ID, COMMENTS_ISSUBMITTER, COMMENTS_LINKID, COMMENTS_PARENTID, COMMENTS_SCORE]
+	dF.columns = [COMMENTS_AUTHOR, COMMENTS_BODY, COMMENTS_CREATED, COMMENTS_ID, COMMENTS_LINKID, COMMENTS_PARENTID, COMMENTS_SCORE]
 	dF.replace('', np.nan, inplace=True)#deleted = dF.isna().sum()
     
 	dF = dF.dropna()
