@@ -176,21 +176,53 @@ def updateComments(dF):
 	#dF.to_csv(file, index=False)
 	return dF
 
-
 def readCsv(file):
 	dataFrame = pd.read_csv(file, sep=",")
 	return dataFrame
 
+def scrape_post(url):
+	reddit = praw.Reddit(client_id='3MtQ8leeP8FYgNP0Vp6LJw',
+						 client_secret='gZudwyXvNcPua09iVG8q42Xgmsgvqg',
+						 username='PrawTutorialGT',
+						 password='jn_RMQSsX-7kAMn',
+						 user_agent='meow')
+	isFirst = True
+	submissionIndex = 0
+	submission = reddit.submission(url=url)
+	comment_queue = submission.comments[:]
+	numComments = submission.num_comments
+	comments = np.empty((numComments, COMMENTCOLLUMNS), dtype=np.dtype("U200"))
+	commentIndex = 0
+	while comment_queue:
+		comment = comment_queue.pop(0)
+		comments = getCommentMetaData(comments, commentIndex, comment)
+		commentIndex +=1
+		comment_queue.extend(comment.replies)
+	if not isFirst:
+		allCommentsArray = np.concatenate((allCommentsArray, comments), axis=0)
+	else:
+		allCommentsArray=comments
+		isFirst = False
+	submissionIndex+=1
+	postsDf = pd.DataFrame(allCommentsArray)
+	postsDf = updateComments(postsDf)
+	return postsDf
+
+
+def scrape_sub(url):
+	pull_size = 3
+	scrapeToCsv(pull_size, url)
+
 def main():
-	scrapeToCsv(3)
-	woof = CSVAnalyzer.CSVAnalyzer()
-	subDF = readCsv(SUBMISSION_CSV)
+	#scrapeToCsv(3)
+	#woof = CSVAnalyzer.CSVAnalyzer()
+	#subDF = readCsv(SUBMISSION_CSV)
 
-
-	comDF = readCsv(COMMENTS_CSV)
+	p
+	#comDF = readCsv(COMMENTS_CSV)
 
 	#woof.plot(comDF, "Created", "Score")
-	woof.getParseTree(comDF["Body"][0])
+	#woof.getParseTree(comDF["Body"][0])
 	# negs = comDF.loc[comDF["Score"] < 0]
 	# authNum = comDF["Author"].value_counts()
 	# # print(negs)
