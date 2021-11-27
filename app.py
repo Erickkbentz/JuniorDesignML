@@ -5,7 +5,7 @@ from flask import Flask
 from flask import request
 
 
-analyze_job_fields = ['userId', 'jobName', 'inputType', 'url', 'fileLocation']
+analyze_job_fields = ['userId', 'jobId', 'jobName', 'inputType', 'url', 'fileLocation']
 
 app = Flask(__name__)
 
