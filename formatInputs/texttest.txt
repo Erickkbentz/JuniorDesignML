@@ -1,0 +1,8 @@
+This is a text file. It is a test for the text file formatter. Hopefully it works! 
+If it doesnt work, then. I? Will! Have to redo'' it.
+
+Im adding this paragraph so i can test if the scanner can split it into paragraphs or not. This should be in the same row as the first sentence of the paragraph. This should also be in that row.
+
+Now we should be on a new row.
+We should also be on a new row now.
+Radical.
