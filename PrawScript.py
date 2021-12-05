@@ -116,7 +116,7 @@ def scrapeToCsv(pullSize, subreddit):
         posts = getSubmissionMetaData(posts, submissionIndex, submission)
         comment_queue = submission.comments[:]
         numComments = submission.num_comments
-        comments = np.empty((numComments + 10, COMMENTCOLLUMNS), dtype=np.dtype('U2000'))
+        comments = np.empty((numComments + 10000, COMMENTCOLLUMNS), dtype=np.dtype('U2000'))
         commentIndex = 0
         while comment_queue:
             comment = comment_queue.pop(0)
@@ -185,7 +185,7 @@ def scrape_post(url):
     submission.comments.replace_more(limit=None)
     comment_queue = submission.comments[:]
     numComments = submission.num_comments
-    comments = np.empty((numComments + 10, COMMENTCOLLUMNS), dtype=np.dtype("U2000"))
+    comments = np.empty((numComments + 10000, COMMENTCOLLUMNS), dtype=np.dtype("U2000"))
 
     posts = np.empty((1, SUBMISSIONCOLUMNS), dtype=np.dtype(('U2000')))
     posts = getSubmissionMetaData(posts, 0, submission)
