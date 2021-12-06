@@ -32,7 +32,7 @@ def analyze_job():
     data = pd.DataFrame()
     if (inputType == "URL"):
         #input is a url, first we check if its a sub or a post
-        url = str(reqData['URL'])
+        url = str(reqData['url'])
         match = re.search('www\.reddit\.com\/r\/.*\/comments', url)
         try:
             if (match != None):
