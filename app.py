@@ -30,9 +30,9 @@ def analyze_job():
     inputType = str(reqData['inputType'])
     inputFileLocation = ''
     data = pd.DataFrame()
-    if (inputType == "url"):
+    if (inputType == "URL"):
         #input is a url, first we check if its a sub or a post
-        url = str(reqData['url'])
+        url = str(reqData['URL'])
         match = re.search('www\.reddit\.com\/r\/.*\/comments', url)
         try:
             if (match != None):
@@ -146,7 +146,7 @@ def analyze_job():
         #with open(relativePathPrefix + outputFileLocation, "w") as outfile:
          #   json.dump(, outfile)
             
-        persuasiveData.to_json(relativePathPrefix + outputFileLocation, orient='records', lines=True)
+        persuasiveData.to_json(relativePathPrefix + outputFileLocation, orient='records')
 
 
         if not (os.path.exists(relativePathPrefix + outputFileLocation)):
